@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   text-align: center;
   font-family: Open Sans, sans-serif;
@@ -7,17 +11,17 @@ body {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 3.7rem;
   font-weight: -300;
 }
 
 h2 {
   color: #2a0074;
-  font-size: 40px;
+  font-size: 3.5rem;
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 1.3rem;
   font-style: italic;
 }
 
@@ -34,17 +38,21 @@ h3 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 1.2rem;
 }
 
 section {
-  max-width: 60%;
+  width: 60%;
   margin: 0 auto;
+}
+
+section section {
+  width: 100%;
 }
 
 img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 0.6rem;
 }
 
 ul {
@@ -61,7 +69,7 @@ a {
 
 .menu {
   background: #ff6cb5;
-  height: 40px;
+  height: 2.5rem;
   max-width: 60%;
   margin: 0 auto;
 }
@@ -75,5 +83,5 @@ a {
 .menu li {
   display: inline-block;
   line-height: 2.5;
-  margin: 0 89px;
+  margin: 0 5.5rem;
 }
